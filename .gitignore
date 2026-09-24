@@ -1,0 +1,14 @@
+# 資料集：絕對不上傳
+data/
+
+# Python 暫存檔
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 環境設定
+.env
+*.token
+
+# 系統檔
+.DS_Store
