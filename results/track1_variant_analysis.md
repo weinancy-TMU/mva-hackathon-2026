@@ -59,3 +59,14 @@
 BUB1B compound heterozygous: p.Leu737Ter + p.Asn1002Lys
 - 符合 MVA type 1 的分子診斷標準
 - 重要限制：phase 未由短讀 WGS 確認（需 trio 或長讀定序）
+
+## AlphaMissense 評估（Allele 2）
+
+### p.Asn1002Lys
+- AlphaMissense score: 0.923
+- Class: likely_pathogenic（門檻 >0.564）
+- 觀察：第 1002 位 Asn 幾乎所有替換都是 likely_pathogenic
+  （除 p.Asn1002Ser = ambiguous 0.348）
+- 意義：此位置高度保守，N1002 對 BUBR1 功能很重要
+- 結論：p.Asn1002Lys 從 VUS 升級為 likely_pathogenic（計算預測層級）
+- 重要限制：AlphaMissense 是計算預測，仍需實驗驗證確認功能影響
