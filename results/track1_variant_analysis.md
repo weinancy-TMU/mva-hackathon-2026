@@ -80,3 +80,32 @@ BUB1B compound heterozygous: p.Leu737Ter + p.Asn1002Lys
 - Homozygotes: 0
 - 只出現在 1 個 European non-Finnish XY 個體
 - 來源：gnomAD v4.1.2（自行查詢確認，非 AI 推測）
+
+## 重要更新：SLC34A1 p.Ala133Val（2026-10-06）
+
+### Variant
+- 位置：chr5:177386432 C>T（GRCh38）
+- rsID：rs148976897
+- 蛋白質影響：SLC34A1 p.Ala133Val（c.398C>T）
+- Genotype：0/1（雜合），GQ=99，DP=49，AD=34,15，FILTER=PASS
+
+### 為什麼 Ian 的 pipeline 沒有找到
+- Ian 的 rarity cutoff：MAX_AF ≤ 0.001
+- p.Ala133Val gnomAD AF ≈ 0.003（超過 cutoff）
+- 在 early filter 就被排除，未進入 840 rare+impactful variants
+
+### ClinVar 解讀
+- 部分 submitter：Likely Pathogenic（nephrocalcinosis context）
+- 部分 submitter：Likely Benign
+- 結論：解讀有爭議，屬於 conflicting interpretations
+
+### 目前定位
+phenotype-matched candidate / possible modifier
+不列入 Track 1 primary CSV
+保留於 residual phenotype section（Track 2 報告）
+
+### 重要科學意義
+展示 hard AF cutoff 的限制：
+pipeline threshold（AF>0.001）→ variant 被排除
+→ phenotype-based rescue 發現潛在 relevant variant
+→ HPO residual review 不是多餘的步驟
