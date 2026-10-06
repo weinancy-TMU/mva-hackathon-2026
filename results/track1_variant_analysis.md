@@ -70,3 +70,13 @@ BUB1B compound heterozygous: p.Leu737Ter + p.Asn1002Lys
 - 意義：此位置高度保守，N1002 對 BUBR1 功能很重要
 - 結論：p.Asn1002Lys 從 VUS 升級為 likely_pathogenic（計算預測層級）
 - 重要限制：AlphaMissense 是計算預測，仍需實驗驗證確認功能影響
+
+## gnomAD v4.1.2 驗證（2026-10-06）
+
+### p.Asn1002Lys（15-40220612-T-G）
+- Exomes: AC=1, AN=1,461,878, AF=6.841e-7
+- Genomes: No variant
+- Total AF: 6.195e-7
+- Homozygotes: 0
+- 只出現在 1 個 European non-Finnish XY 個體
+- 來源：gnomAD v4.1.2（自行查詢確認，非 AI 推測）
